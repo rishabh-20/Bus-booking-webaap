@@ -1,0 +1,58 @@
+.editbus {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.editbus form {
+    display: flex;
+    flex-direction: column;
+}
+
+.editbus label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.editbus input[type="text"],
+.editbus input[type="date"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.editbus input[type="text"]:focus,
+.editbus input[type="date"]:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.editbus .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #d9534f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.editbus .btn:hover {
+    background-color: #c9302c;
+}
+
+.editbus .btn:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(201, 48, 44, 0.6);
+}

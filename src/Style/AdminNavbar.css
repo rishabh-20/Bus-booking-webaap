@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    padding: 0px 50px;
+    height: 90px;
+}
+.navbar .logo sup{
+    color: brown;
+}
+.navbar .logo img{
+    height: 80px;
+    width: 80px;
+}

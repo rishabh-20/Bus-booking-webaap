@@ -1,0 +1,51 @@
+.usersignup {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(68, 126, 27, 0.1);
+    background-color: #f1e9e9;
+}
+
+.usersignup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.usersignup label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.usersignup input,
+.usersignup select {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.usersignup input:focus,
+.usersignup select:focus {
+    border-color: #007bff;
+}
+
+.usersignup button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.usersignup button:hover {
+    background-color: #0056b3;
+}

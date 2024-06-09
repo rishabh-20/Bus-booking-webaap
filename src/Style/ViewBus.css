@@ -1,0 +1,50 @@
+.bus_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.bus_details:hover {
+    transform: translateX(5px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bus_details h4,
+.bus_details i,
+.bus_details p,
+.bus_details span {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+    padding: 5px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #ec971f;
+}
+

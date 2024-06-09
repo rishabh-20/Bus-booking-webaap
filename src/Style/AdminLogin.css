@@ -1,0 +1,38 @@
+.adminlogin form{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 200px 300px;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px gray;
+
+}
+.adminlogin input{
+    margin: 10px;
+}
+
+.adminlogin{background-image: url(https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716854400&semt=ais_user);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+.adminlogin p{
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    font-size: 25px;
+}
+
+.adminlogin a:hover{
+    color: white;
+    
+
+}
+
